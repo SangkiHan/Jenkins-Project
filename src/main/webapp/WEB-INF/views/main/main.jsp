@@ -7,6 +7,6 @@
     <title>Login</title>
 </head>
 <body>
-        <h2>메인화면 Webhook 자동배포 테스트 </h2> 
+        <h2>메인화면 Webhook 자동배포 테스트  </h2> 
 </body>
 </html>
