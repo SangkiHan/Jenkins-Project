@@ -7,6 +7,6 @@
     <title>Login</title>
 </head>
 <body>
-        <h2>메인화면 자동배포 완료</h2> 
+        <h2>메인화면 빡빡이 완료</h2> 
 </body>
 </html>
