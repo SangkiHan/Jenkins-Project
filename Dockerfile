@@ -7,7 +7,7 @@ FROM adoptopenjdk:11-jre-hotspot
 
 # ENTRYPOINT ["java","-jar","/app.jar"]
 
-ARG WAR_FILE=/var/lib/jenkins/workspace/manageTeam/build/libs/manageTeam-0.0.1-SNAPSHOT.war
+ARG WAR_FILE=manageTeam-0.0.1-SNAPSHOT.war
 ARG APP_NAME=app
 
 RUN mkdir -p /home/project
