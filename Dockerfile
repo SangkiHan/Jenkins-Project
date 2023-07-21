@@ -14,7 +14,7 @@ RUN mkdir -p /home/project
 # RUN mkdir -p /gclog
 WORKDIR /home/project
 
-COPY ${WAR_FILE} /home/project/app.war
+#COPY ${WAR_FILE} /home/project/app.war
 #change to user root to install certificates
 # USER root
 # RUN keytool -noprompt -importcert -keystore ${JAVA_HOME}/jre/lib/security/cacerts -storepass changeit -file /home/spring/planin.certificate -alias 1
@@ -23,4 +23,4 @@ COPY ${WAR_FILE} /home/project/app.war
 
 # EXPOSE 80
 
-ENTRYPOINT java -jar /home/spring/app.war 
+#ENTRYPOINT java -jar /home/spring/app.war 
