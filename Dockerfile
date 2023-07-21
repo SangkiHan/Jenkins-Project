@@ -8,4 +8,4 @@ WORKDIR /home/project
 
 COPY ${WAR_FILE} /home/project/app.war
 
-ENTRYPOINT java -jar /home/spring/app.war 
+ENTRYPOINT java -jar /home/project/app.war 
