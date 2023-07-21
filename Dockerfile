@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11-jre-hotspot
 # FROM amazoncorretto:11-alpine-jdk
-RUN addgroup -S tkdrl8908 -g 1001 && adduser -S tkdrl8908 -u 1001 -G tkdrl8908
+RUN groupadd -r tkdrl8908 -g 1001 && useradd -r -g tkdrl8908 -u 1001 tkdrl8908
 # RUN apk --no-cache add curl
 # RUN addgroup -S spring -g 1001 && adduser -S spring -u 1001 -G spring
 USER tkdrl8908:tkdrl8908
