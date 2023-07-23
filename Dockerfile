@@ -6,6 +6,6 @@ ARG APP_NAME=app
 RUN mkdir -p /home/project
 WORKDIR /home/project
 
-COPY ${WAR_FILE} /home/project/app.war
+COPY ${WAR_FILE} /home/project/app.war 
 
 ENTRYPOINT java -jar /home/project/app.war 
