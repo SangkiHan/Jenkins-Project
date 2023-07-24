@@ -6,6 +6,6 @@ ARG APP_NAME=app
 RUN mkdir -p /home/project
 WORKDIR /home/project
 
-COPY ${WAR_FILE} /home/project/app.war
+COPY ${WAR_FILE} /home/project/app.war 
 
-ENTRYPOINT java -Duser.timezone=GMT+09:00 -jar /home/project/app.war 
+ENTRYPOINT java -Duser.timezone=GMT+09:00 -jar /home/project/app.war
