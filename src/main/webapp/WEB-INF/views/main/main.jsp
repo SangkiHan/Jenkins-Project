@@ -7,6 +7,6 @@
     <title>Login</title>
 </head>
 <body>
-        <h2>메인화면 자동배포 테스트 완료</h2> 
+        <h2>한상기한상기한상기</h2> 
 </body>
 </html>
