@@ -7,6 +7,6 @@
     <title>Login</title>
 </head>
 <body>
-        <h2>Jenkins Develop</h2> 
+        <h2>모빌씨앤씨</h2> 
 </body>
 </html>
